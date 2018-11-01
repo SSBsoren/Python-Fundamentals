@@ -1,0 +1,41 @@
+#Type Casting or Type coersion
+#integer---
+>>> b=20.4
+>>> c=int(b)
+>>> c
+20
+>>> 
+---------------------------------------------------
+**complex no cannot be converted in integer.
+----------------------------------------------
+>>> d=45+78j
+>>> f=int(d)
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+  f=int(d)
+TypeError: can't convert complex to int
+>>> 
+
+-------------------------------------------
+Float:
+>>> b=23
+>>> c=float(b)
+>>> c
+23.0
+>>> 
+---------------------------------
+>>> f="python"
+>>> f
+'python'
+>>> f=45
+>>> f
+45
+>>> 
+-----------------------------------------
+>>> x=45
+>>> x=f=45
+>>> id(f)
+1440168896
+>>> id(x)
+1440168896
+--------------------------------------------

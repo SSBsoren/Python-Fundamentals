@@ -1,0 +1,12 @@
+>>> list=['sagen',393.30,20.3,'soren']
+>>> list1=['Bhim', 100,3003.3,'soren']
+>>> list
+['sagen', 393.3, 20.3, 'soren']
+>>> list1
+['Bhim', 100, 3003.3, 'soren']
+>>> list[1:2]
+[393.3]
+>>> list+list1
+['sagen', 393.3, 20.3, 'soren', 'Bhim', 100, 3003.3, 'soren']
+>>> list*2
+['sagen', 393.3, 20.3, 'soren', 'sagen', 393.3, 20.3, 'soren']
